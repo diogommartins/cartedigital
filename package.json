@@ -5,6 +5,14 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0"
+    "desandro-get-style-property": "^1.0.4",
+    "desandro-matches-selector": "^2.0.1",
+    "doc-ready": "^1.0.3",
+    "eventie": "^1.0.6",
+    "get-size": "^2.0.2",
+    "jquery": "^2.2.3",
+    "meteor-node-stubs": "^0.2.3",
+    "outlayer": "^2.0.1",
+    "wolfy87-eventemitter": "^4.3.0"
   }
 }

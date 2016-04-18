@@ -887,22 +887,22 @@ label {
  */
 #hungry-about-us { padding: 140px 0 120px 0; }
 #hungry-testimonials {
-    background: url(../images/demo/parallax-backgrounds/parallax-01.jpg) repeat fixed;
+    background: url(images/parallax-01.jpg) repeat fixed;
     padding: 140px 0 70px 0;
 }
 #hungry-menu { padding: 140px 0 50px 0; }
 #hungry-slogan-01 {
-    background: url(../images/demo/parallax-backgrounds/parallax-02.jpg) repeat fixed;
+    background: url(images/parallax-02.jpg) repeat fixed;
     padding: 140px 0;
 }
 #hungry-slogan-02 {
-    background: url(../images/demo/parallax-backgrounds/parallax-03.jpg) repeat fixed;
+    background: url(images/parallax-03.jpg) repeat fixed;
     padding: 140px 0;
 }
 #hungry-staff { padding: 140px 0; }
 #hungry-gallery { padding: 140px 0 120px 0; }
 #hungry-blog {
-    background: url(../images/demo/parallax-backgrounds/parallax-04.jpg) repeat fixed;
+    background: url(images/parallax-04.jpg) repeat fixed;
     padding: 140px 0;
 }
 #hungry-reservations { padding: 140px 0; }

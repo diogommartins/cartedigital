@@ -1,0 +1,63 @@
+<template name="layoutHeader">
+    <header id="single-page-header">
+        <div class="site-navbar">
+            <div class="grid-container">
+
+                <!-- START Site Logo -->
+                <div class="grid-20 tablet-grid-50 mobile-grid-50">
+                    <a href="index.html">
+                        <img class="site-logo" src="images/logo.jpg" alt="Site Logo" />
+                    </a>
+                </div>
+                <!-- END Site Logo -->
+                {{> navigation}}
+            </div>
+        </div>
+
+        <div class="single-page-header-content">
+
+            <!-- START Slider Images -->
+            {{> slider}}
+            <!-- END Slider Images -->
+
+            <!-- START Slider Texts -->
+            <div class="single-page-header-text">
+
+                <!-- Pre-slogan -->
+                <div class="tilt-left">
+                    <h3 class="header-text-pre-slogan">Bem vindo<em>&hellip;</em></h3>
+                </div>
+
+                <!-- Slogan Rotator -->
+                <div class="tlt">
+                    <ul class="header-texts">
+                        <li>Empório Quintana!</li>
+                        <li>Beba com os amigos!</li>
+                        <li>Traga a família!</li>
+                        <li>Gourmet!</li>
+                        <li>Aproveito o melhor atendimento!</li>
+                    </ul>
+                </div>
+
+                <!-- Divider -->
+                <div class="header-text-divider"></div>
+
+            </div>
+            <!-- END Slider Texts -->
+
+        </div>
+
+        <!-- START Social Icons -->
+        <div class="single-page-social-icons">
+            <ul class="single-page-social-icons-list">
+                <li><a href="#" class="header-social-icon-tooltip" title="Follow us on Facebook!"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" class="header-social-icon-tooltip" title="Find us in Twitter!"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#" class="header-social-icon-tooltip" title="Pin us on Pinterest!"><i class="fa fa-pinterest"></i></a></li>
+                <li><a href="#" class="header-social-icon-tooltip" title="See us on Vimeo!"><i class="fa fa-vimeo-square"></i></a></li>
+                <li><a href="#" class="header-social-icon-tooltip" title="We're on OpenTable!"><i class="fa fa-cutlery"></i></a></li>
+            </ul>
+        </div>
+        <!-- END Social Icons -->
+
+    </header>
+</template>

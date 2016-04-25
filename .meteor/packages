@@ -26,7 +26,7 @@ dburles:collection-helpers
 accounts-ui
 accounts-base
 accounts-password
-iron:router
+kadira:flow-router
 fortawesome:fontawesome
 alanning:roles
 twbs:bootstrap

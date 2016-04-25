@@ -23,11 +23,8 @@ aldeed:autoform
 aldeed:collection2
 aldeed:simple-schema
 dburles:collection-helpers
-accounts-ui
-accounts-base
-accounts-password
 kadira:flow-router
+kadira:blaze-layout
 fortawesome:fontawesome
 alanning:roles
-twbs:bootstrap
-yogiben:admin
+ruslan:jquery-ui

@@ -1,0 +1,43 @@
+<template name="comentarios">
+    <section id="hungry-testimonials" class="section-container parallax">
+        <div class="grid-container">
+
+            <!-- START Section Heading -->
+            <div class="wow fadeIn" data-wow-duration="2s" data-wow-offset="250">
+                <h1 class="section-heading-alt-title">Opiniões dos clientes<span>&hellip;</span></h1>
+            </div>
+            <!-- END Section Heading -->
+
+            {{#each lastComentarios}}
+                {{> comentario}}
+            {{/each}}
+
+        </div>
+    </section>
+</template>
+
+
+<template name="comentario">
+    {{#if alignLeft}}
+        <div class="wow fadeInLeft" data-wow-duration="2s" data-wow-offset="250">
+            <div class="prefix-10 grid-35 suffix-5 tablet-grid-50 mobile-grid-100">
+                <div class="hungry-testimonial">
+                    <blockquote>&quot;{{content}}&quot;</blockquote>
+                    <img src="images/demo/testimonial-thumbnails/testimonial-thumbnail-04.jpg" alt="Testimonial Thumbnail Image" />
+                    <cite>{{autor}} from <a href="#">Bellflower, Oregon</a></cite>
+                </div>
+            </div>
+        </div>
+    {{else}}
+        <div class="prefix-5 grid-35 suffix-10 tablet-grid-50 mobile-grid-100">
+            <div class="wow fadeInRight" data-wow-duration="2s" data-wow-offset="250">
+                <div class="hungry-testimonial">
+                    <blockquote>&quot;{{content}}&quot;</blockquote>
+                    <img src="images/demo/testimonial-thumbnails/testimonial-thumbnail-04.jpg" alt="Testimonial Thumbnail Image" />
+                    <cite>{{autor}} from <a href="#">Bellflower, Oregon</a></cite>
+                </div>
+            </div>
+        </div>
+    {{/if}}
+</template>
+

@@ -6,13 +6,15 @@ import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 
 import '../imports/ui/pages/principal.js';
 import '../imports/ui/pages/login.js';
-
-FlowRouter.route('/', {
+let indexRoute = {
     name: 'App.home',
     action: function(params){
         BlazeLayout.render('principal');
     }
-});
+};
+
+FlowRouter.route('/', indexRoute);
+FlowRouter.route('/index', indexRoute);
 
 FlowRouter.route('/login',{
     name: 'App.login',

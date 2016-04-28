@@ -1,0 +1,50 @@
+<template name="equipe">
+    <!-- START Section - Staff -->
+    <section id="hungry-staff" class="section-container">
+
+        <!-- START Section Heading -->
+        <div class="wow fadeInDown" data-wow-duration="2s" data-wow-offset="250">
+            <header class="section-heading">
+                <h2 class="section-heading-title">Nossa equipe</h2>
+                <div class="section-heading-subtitle-container tilt-left">
+                    <h4 class="section-heading-subtitle">A galerinha do barulho</h4>
+                </div>
+            </header>
+        </div>
+        <!-- END Section Heading -->
+
+        <div class="grid-container">
+            {{#each empregados}}
+                {{> equipeItem}}
+            {{/each}}
+        </div>
+    </section>
+    <!-- END Section - Staff -->
+</template>
+
+
+<template name="equipeItem">
+    <!-- START Staff Member -->
+    <div class="grid-33 tablet-prefix-20 tablet-grid-60 tablet-suffix-20 mobile-grid-100">
+        <div class="wow {{fadeInType}}" data-wow-duration="2s" data-wow-offset="250">
+            <div class="hungry-staff-member">
+                <header>
+                    <img src="{{foto}}" class="hungry-staff-member-thumbnail" alt="Staff Member Thumbnail" />
+                    <h3 class="hungry-staff-member-title">{{nome}}</h3>
+                    <h4 class="hungry-staff-member-role">{{funcao}}</h4>
+                </header>
+                <div class="hungry-staff-member-content">
+                    <p>{{descricao}}</p>
+                </div>
+                <footer>
+                    <ul class="hungry-staff-member-social-icons">
+                        <li><a href="#" class="team-tooltip" title="Like John!"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="team-tooltip" title="Tweet John!"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="team-tooltip" title="See John!"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- END Staff Member -->
+</template>

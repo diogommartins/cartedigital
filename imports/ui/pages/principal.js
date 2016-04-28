@@ -9,8 +9,9 @@ require('jquery');
 
 import '../layout/header.js';
 
-import '../components/testimonials/testimonials.js';
+import '../components/testimonials/comentarios.js';
 import '../components/cardapio/cardapio.js';
+import '../components/equipe/equipe.js';
 
 // Theme
 import './principal.html';

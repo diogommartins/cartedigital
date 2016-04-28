@@ -5,12 +5,20 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 
 import '../imports/ui/pages/principal.js';
+import '../imports/ui/pages/login.js';
 
 FlowRouter.route('/', {
     name: 'App.home',
     action: function(params){
-        console.log("Entrando na página principal. Params: ", params);
         BlazeLayout.render('principal');
+    }
+});
+
+FlowRouter.route('/login',{
+    name: 'App.login',
+    action: function(){
+        console.log("Login UI");
+        BlazeLayout.render('loginPage');
     }
 });
 

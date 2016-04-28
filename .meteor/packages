@@ -26,5 +26,11 @@ dburles:collection-helpers
 kadira:flow-router
 kadira:blaze-layout
 fortawesome:fontawesome
-alanning:roles
 ruslan:jquery-ui
+accounts-base
+accounts-password
+alanning:roles
+sach:flow-db-admin
+accounts-ui
+accounts-facebook
+aldeed:tabular

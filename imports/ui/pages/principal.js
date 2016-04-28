@@ -14,7 +14,7 @@ import '../components/cardapio/cardapio.js';
 
 // Theme
 import './principal.html';
-import '../theme/jquery-main.js';
+import '../../../public/scripts/jquery-main.js';
 
 
 Template.principal.onRendered(function(){

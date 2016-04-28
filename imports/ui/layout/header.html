@@ -31,11 +31,9 @@
                 <!-- Slogan Rotator -->
                 <div class="tlt">
                     <ul class="header-texts">
-                        <li>Empório Quintana!</li>
-                        <li>Beba com os amigos!</li>
-                        <li>Traga a família!</li>
-                        <li>Gourmet!</li>
-                        <li>Aproveito o melhor atendimento!</li>
+                        {{#each slogans}}
+                            <li>{{content}}</li>
+                        {{/each}}
                     </ul>
                 </div>
 

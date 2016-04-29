@@ -5,6 +5,7 @@ import './header.html';
 
 import '../components/navigation/navigation.js';
 import '../slider/slider.js';
+import '../pages/login.js';
 
 
 Template.layoutHeader.helpers({

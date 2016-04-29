@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d241a20a-e945-4f34-9138-70b70f4ea0dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/collections.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cartedigital.iml" afterPath="$PROJECT_DIR$/.idea/cartedigital.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/layout/header.html" afterPath="$PROJECT_DIR$/imports/ui/layout/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/layout/header.js" afterPath="$PROJECT_DIR$/imports/ui/layout/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/pages/login.html" afterPath="$PROJECT_DIR$/imports/ui/pages/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imports/ui/pages/login.js" afterPath="$PROJECT_DIR$/imports/ui/pages/login.js" />
     </list>
     <ignored path="cartedigital.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,9 +30,31 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imports/ui/layout/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="470">
+              <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/ui/pages/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imports/ui/layout/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#47#70#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +128,6 @@
         <option value="$PROJECT_DIR$/client/head.html" />
         <option value="$PROJECT_DIR$/imports/ui/theme/jquery-main.js" />
         <option value="$PROJECT_DIR$/public/scripts/jquery-main.js" />
-        <option value="$PROJECT_DIR$/imports/ui/pages/login.html" />
-        <option value="$PROJECT_DIR$/imports/ui/pages/login.js" />
         <option value="localhost:3000/app/app.js?hash=07b2e9f468de71eab9d6c2a277532da6131d79cd" />
         <option value="$USER_HOME$/.meteor/packages/aldeed_tabular/1.4.2/web.browser/client/tabular.js" />
         <option value="$USER_HOME$/.meteor/packages/sach_flow-db-admin/1.1.5/web.browser/lib/client/js/templates.coffee" />
@@ -117,8 +135,6 @@
         <option value="$PROJECT_DIR$/lib/collections.js" />
         <option value="localhost:3000/app/app.js?hash=67009443d40ac68c85e325968f6b8fafd1c5369d" />
         <option value="localhost:3000/app/app.js?hash=19d5544f26f2e490707d91eae521734571ebc35e" />
-        <option value="$PROJECT_DIR$/imports/ui/layout/header.js" />
-        <option value="$PROJECT_DIR$/imports/ui/layout/header.html" />
         <option value="$PROJECT_DIR$/imports/ui/components/testimonials/testimonials.js" />
         <option value="$PROJECT_DIR$/imports/ui/components/testimonials/testimonials.html" />
         <option value="$PROJECT_DIR$/imports/ui/components/testimonials/comentarios.html" />
@@ -139,6 +155,10 @@
         <option value="$PROJECT_DIR$/imports/ui/components/equipe/equipe.js" />
         <option value="$PROJECT_DIR$/imports/ui/components/navigation/navigation.html" />
         <option value="$PROJECT_DIR$/client/routes.js" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/login.html" />
+        <option value="$PROJECT_DIR$/imports/ui/layout/header.js" />
+        <option value="$PROJECT_DIR$/imports/ui/pages/login.js" />
+        <option value="$PROJECT_DIR$/imports/ui/layout/header.html" />
       </list>
     </option>
   </component>
@@ -655,7 +675,7 @@
       <workItem from="1461598388890" duration="18304000" />
       <workItem from="1461840881474" duration="9665000" />
       <workItem from="1461852942540" duration="13886000" />
-      <workItem from="1461868233779" duration="9455000" />
+      <workItem from="1461868233779" duration="14575000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionados css to tema">
       <created>1461000615844</created>
@@ -762,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461880958682</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Arquivos relacionados ao WebStorm">
+      <created>1461881023957</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1461881023957</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79458000" />
+    <option name="totallyTimeSpent" value="84578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1003" extended-state="6" />
@@ -819,7 +846,8 @@
     <MESSAGE value="Dividinto collections em diversos arquivos" />
     <MESSAGE value="Adicionadas labels para dashboard" />
     <MESSAGE value="Adicionado npm:numeral para lidar com currency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado npm:numeral para lidar com currency" />
+    <MESSAGE value="Arquivos relacionados ao WebStorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arquivos relacionados ao WebStorm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -950,21 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/pages/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/pages/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.meteor/packages/less/.2.6.0.1xngrhb++os+web.browser+web.cordova/plugin.compileLessBatch.os/npm/node_modules/meteor/promise/node_modules/meteor-promise/promise_server.js" />
     <entry file="http://localhost:3000/app/app.js?hash=07b2e9f468de71eab9d6c2a277532da6131d79cd">
       <provider selected="true" editor-type-id="httpFileEditor">
@@ -1000,13 +1013,6 @@
     <entry file="http://localhost:3000/app/app.js?hash=19d5544f26f2e490707d91eae521734571ebc35e">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/layout/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/jquery-main.js">
@@ -1069,14 +1075,6 @@
             <element signature="e#199#228#0" expanded="false" />
             <element signature="e#378#404#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imports/ui/pages/principal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1186,7 @@
         <state relative-caret-position="304">
           <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
           <folding>
-            <element signature="e#47#84#0" expanded="true" />
+            <element signature="e#47#84#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1201,10 +1199,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/principal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/layout/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#47#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/ui/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/layout/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="470">
+          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
           <folding />
         </state>
       </provider>

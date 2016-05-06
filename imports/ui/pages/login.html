@@ -3,5 +3,34 @@
 </template>
 
 <template name="loginArea">
+    {{#unless currentUser}}
     <a class="hungry-button loginButton" href="#">Login</a>
+    {{else}}
+        <a class="hungry-button logoutButton" href="#">Logout</a>
+    {{/unless}}
+</template>
+
+<template name="modalLogin">
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                {{#unless currentUser}}
+                <div class="modal-body">
+                    <button type="button" class="btn btn-default btn-lg btn-facebook">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i> Login com facebook
+                    </button>
+                </div>
+                    <hr />
+                {{/unless}}
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </template>

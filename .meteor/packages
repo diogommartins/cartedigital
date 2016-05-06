@@ -38,3 +38,5 @@ cfs:standard-packages
 #cfs:gridfs
 cfs:autoform
 cfs:filesystem
+peppelg:bootstrap-3-modal
+service-configuration

@@ -3,6 +3,7 @@
  */
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import { Accounts } from 'meteor/accounts-base';
 
 import '../../ui/stylesheets/formalize.css';
 import '../../ui/stylesheets/unsemantic-grid.css';
@@ -16,3 +17,9 @@ import '../../ui/components/navigation/navigation.html';            // nav
 import '../../ui/slider/slider.js';                     // slider and images
 
 import './../../../client/routes.js';
+
+Accounts.ui.config({
+    requestPermissions: {
+        facebook: ['user_friends', 'public_profile', 'email']
+    }
+});
